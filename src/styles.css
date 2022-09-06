@@ -144,4 +144,32 @@ li {
 }
 /* mid section css ends  */
 
-/*  */
+/* mid2 section css start  */
+.midh1 {
+  color: rgb(10, 20, 110);
+  margin: 55px 0px 55px;
+}
+.midh2 {
+  color: rgb(10, 20, 110);
+}
+.midimg {
+  margin-bottom: 20px;
+}
+.tool {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  font: inherit;
+  vertical-align: baseline;
+}
+.btn2 {
+  margin-top: 55px;
+  margin-left: 10px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+/* mid2 section css ends  */
