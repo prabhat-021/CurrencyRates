@@ -1,0 +1,147 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+/* Navbar css start */
+.navbar {
+  display: flex;
+  background: rgb(10, 20, 110);
+  color: rgb(255, 255, 255);
+  padding: 8px;
+  border-radius: 6px;
+  font-family: Inter, sans-serif;
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+.hw {
+  display: flex;
+  list-style: none;
+  padding: 4px;
+}
+.logo {
+}
+.details {
+  margin-right: auto;
+  margin-left: 26px;
+}
+.component {
+  display: flex;
+  justify-content: center;
+  margin-right: 40px;
+}
+.li1 {
+  margin-right: 16px;
+}
+.login {
+  margin-left: auto;
+}
+li {
+  padding-right: 12px;
+}
+/* Navbar css ends */
+
+/* currency tools section css start */
+.popular {
+  margin-bottom: 70px;
+}
+.po1 {
+  color: rgb(10, 20, 110);
+  margin: 0px 0px 32px;
+  font-weight: 600;
+  line-height: 1.3;
+}
+.card {
+  display: flex;
+  justify-content: center;
+}
+.container {
+  /* margin-left: auto;
+  margin-right: auto; */
+  display: inline;
+  margin-left: 75px;
+  margin-right: 75px;
+  justify-content: center;
+  text-align: center;
+}
+.g1 {
+  color: rgb(10, 20, 110);
+  margin: 0px 0px 32px;
+}
+.p1 {
+  color: rgb(20, 30, 55);
+  margin: 0px 0px 32px;
+}
+/* currency tools section css ends */
+
+/* button css */
+.btn {
+  background: white;
+  background-image: -webkit-linear-gradient(top, white, white);
+  background-image: -moz-linear-gradient(top, white, white);
+  background-image: -ms-linear-gradient(top, white, white);
+  background-image: -o-linear-gradient(top, white, white);
+  background-image: linear-gradient(to bottom, white, white);
+  font-family: Georgia;
+  color: blue;
+  font-size: 20px;
+  padding: 10px 40px 10px 40px;
+  border: solid #1555d6 3px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #ade0ff;
+  background-image: -webkit-linear-gradient(top, #ade0ff, #b2e0ff);
+  background-image: -moz-linear-gradient(top, #ade0ff, #b2e0ff);
+  background-image: -ms-linear-gradient(top, #ade0ff, #b2e0ff);
+  background-image: -o-linear-gradient(top, #ade0ff, #b2e0ff);
+  background-image: linear-gradient(to bottom, #ade0ff, #b2e0ff);
+  text-decoration: none;
+}
+/* button css ends */
+
+/* mid section css start */
+.midsec {
+  background-color: rgb(10, 20, 110);
+  position: relative;
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  font: inherit;
+  vertical-align: baseline;
+}
+.midp1 {
+  color: blanchedalmond;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+.midp2 {
+  padding-bottom: 20px;
+}
+.img1 {
+  width: 50%;
+  padding-bottom: 25px;
+}
+.btn1 {
+  -webkit-border-radius: 10;
+  -moz-border-radius: 10;
+  border-radius: 10px;
+  border: solid #1f628d 2px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 22px;
+  background: #3498db;
+  padding: 13px 40px 13px 40px;
+  text-decoration: none;
+  margin-bottom: 45px;
+  margin-top: 20px;
+}
+
+.btn1:hover {
+  background: #3cb0fd;
+  text-decoration: none;
+}
+/* mid section css ends  */
+
+/*  */
