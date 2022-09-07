@@ -241,3 +241,82 @@ li {
   margin-bottom: 40px;
 }
 /* Currency profile section css ends  */
+
+
+/* Footer section css start  */
+.footer {
+  background-color: rgb(10, 20, 110);
+  padding-bottom: 100px;
+}
+.foot1 {
+  color: rgb(255, 255, 255);
+  margin: 0px 0px 32px;
+  font-weight: 600;
+  line-height: 1.3;
+  font-size: 1.3rem;
+  padding-top: 110px;
+}
+/* .box{
+  justify-content: flex-start;
+} */
+.footp1 {
+  margin: 2px 80px 20px 80px;
+  padding-top: 40px;
+  padding-bottom: 150px;
+}
+.icons {
+  display: flex;
+  margin-left: 14px;
+}
+.icont1 {
+  margin-left: 50px;
+  margin-right: 190px;
+  color: rgb(255, 255, 255);
+  font-weight: 600;
+  line-height: 1.3;
+  font-size: 1rem;
+}
+.icon2 {
+  font-weight: 300;
+}
+.img3 {
+  width: 90%;
+  height: 75%;
+}
+.bottom {
+  display: flex;
+  margin-top: 60px;
+  justify-content: space-around;
+}
+.ul1 {
+  padding-left: 0;
+}
+.li2 {
+  font-size: 0.79rem;
+  list-style: none;
+  color: rgb(255, 255, 255);
+  text-align: left;
+  padding-top: 10px;
+}
+.btmh1 {
+  color: rgb(255, 255, 255);
+  text-align: left;
+}
+h5 {
+  text-align: left;
+  color: rgb(255, 255, 255);
+  font-weight: 100;
+  margin-left: 56px;
+  margin-top: 80px;
+}
+.companyinfo {
+  display: flex;
+  margin-left: 18px;
+}
+.contact {
+  margin-left: 57px;
+}
+.bot1 {
+  margin-top: 50px;
+}
+/* Footer section css ends  */

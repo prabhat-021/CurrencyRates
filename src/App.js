@@ -6,6 +6,7 @@ import Mid2 from "./Mid2.js";
 import Appsection from "./Appsection.js";
 import star from "../public/images/star.jpg";
 import CurrencyProfile from "./CurrencyProfile";
+import Footer from "./Footer.js";
 export default function App() {
   return (
     <div className="App">
@@ -16,6 +17,7 @@ export default function App() {
       <Appsection />
       <img className="star" src={star} />
       <CurrencyProfile />
+      <Footer />
     </div>
   );
 }
