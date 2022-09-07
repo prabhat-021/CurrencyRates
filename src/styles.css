@@ -173,3 +173,54 @@ li {
 }
 
 /* mid2 section css ends  */
+
+/* app section css start  */
+#appsection {
+  text-align: left;
+}
+.appsection {
+  display: flex;
+  display: flex;
+  /* flex-wrap: wrap; */
+  justify-content: space-around;
+  background-color: rgb(10, 20, 110);
+}
+.appdet {
+  align-items: left;
+  margin: 60px;
+  /* flex-wrap: wrap; */
+}
+.apph1 {
+  color: rgb(255, 255, 255);
+  margin: 0px 0px 32px;
+  font-weight: 600;
+  line-height: 1.3;
+  font-size: 2.4rem;
+}
+.app1 {
+  color: rgb(255, 255, 255);
+  margin: 0px 0px 32px;
+  font-weight: 300;
+  line-height: 1.3;
+}
+.appimg {
+  width: 58%;
+  margin-top: 60px;
+  border-radius: 7%;
+  height: 75%;
+  /* height: 50%; */
+}
+.qr {
+  width: 120px;
+  justify-content: flex-start;
+  margin-bottom: 30px;
+}
+.appstore {
+  display: flex;
+  margin-bottom: 30px;
+}
+.store {
+  width: 160px;
+  margin-right: 20px;
+}
+/* app section css ends  */
