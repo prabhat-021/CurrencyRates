@@ -4,6 +4,8 @@ import Popular from "./Popular";
 import Mid from "./Mid.js";
 import Mid2 from "./Mid2.js";
 import Appsection from "./Appsection.js";
+import star from "../public/images/star.jpg";
+import CurrencyProfile from "./CurrencyProfile";
 export default function App() {
   return (
     <div className="App">
@@ -12,6 +14,8 @@ export default function App() {
       <Mid />
       <Mid2 />
       <Appsection />
+      <img className="star" src={star} />
+      <CurrencyProfile />
     </div>
   );
 }
