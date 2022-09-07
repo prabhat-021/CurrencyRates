@@ -224,3 +224,20 @@ li {
   margin-right: 20px;
 }
 /* app section css ends  */
+
+/* Currency profile section css start  */
+.star {
+  width: 100%;
+}
+.currency {
+  background-color: rgb(250, 250, 251);
+  padding-top: 40px;
+}
+.crr1 {
+  color: rgb(10, 20, 110);
+  font-weight: 600;
+  line-height: 1.3;
+  font-size: 1.5rem;
+  margin-bottom: 40px;
+}
+/* Currency profile section css ends  */
