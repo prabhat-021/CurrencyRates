@@ -21,7 +21,7 @@ export default function CurrencyConverter() {
     } else {
       const getCurrencyconvertTor = async () => {
         const response = await axios.get(
-          `https://api.apilayer.com/fixer/latest?base=USD&symbols=EUR,GBP&apikey:${vQu7Lh3bgZej7euxn6Q42qwZ2EJqD2ED}`
+          `https://api.exchangeratesapi.io/latest?base=${base}`
         );
         // return response;
         console.log("response==>", response);
