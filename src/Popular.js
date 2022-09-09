@@ -1,9 +1,9 @@
 import "./styles.css";
 import react from "react";
 import ReactDOM from "react-dom";
-import pic1 from "../public/images/graph.jpg";
-import pic2 from "../public/images/send.jpg";
-import pic3 from "../public/images/bell.jpg";
+import pic1 from "./images/graph.jpg";
+import pic2 from "./images/send.jpg";
+import pic3 from "./images/bell.jpg";
 export default function Popular() {
   return (
     <section className="popular">

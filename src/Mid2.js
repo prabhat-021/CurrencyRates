@@ -1,9 +1,9 @@
 import "./styles.css";
 import react from "react";
 import ReactDOM from "react-dom";
-import pic5 from "../public/images/clock.jpg";
-import pic6 from "../public/images/calculator.jpg";
-import pic7 from "../public/images/mail.jpg";
+import pic5 from "./images/clock.jpg";
+import pic6 from "./images/calculator.jpg";
+import pic7 from "./images/mail.jpg";
 export default function Mid2() {
   return (
     <div className="App">
