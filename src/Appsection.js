@@ -1,10 +1,10 @@
 import "./styles.css";
 import react from "react";
 import ReactDOM from "react-dom";
-import pic6 from "../public/images/phone.jpg";
-import pic7 from "../public/images/Qrcode.jpg";
-import pic8 from "../public/images/appledown.jpg";
-import pic9 from "../public/images/playstore.jpg";
+import pic6 from "./images/phone.jpg";
+import pic7 from "./images/Qrcode.jpg";
+import pic8 from "./images/appledown.jpg";
+import pic9 from "./images/playstore.jpg";
 export default function Appsection() {
   return (
     <section className="appsection">

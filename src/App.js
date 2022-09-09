@@ -4,7 +4,7 @@ import Popular from "./Popular";
 import Mid from "./Mid.js";
 import Mid2 from "./Mid2.js";
 import Appsection from "./Appsection.js";
-import star from "../public/images/star.jpg";
+import star from "./img/star.jpg";
 import CurrencyProfile from "./CurrencyProfile";
 import Footer from "./Footer.js";
 import CurrencyConverter from "./CurrencyConverter.js";

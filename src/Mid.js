@@ -1,7 +1,7 @@
 import "./styles.css";
 import react from "react";
 import ReactDOM from "react-dom";
-import pic4 from "../public/images/logocom.jpg";
+import pic4 from "./images/logocom.jpg";
 export default function Mid() {
   return (
     <section>

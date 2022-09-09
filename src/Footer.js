@@ -1,7 +1,7 @@
 import "./styles.css";
 import react from "react";
 import ReactDOM from "react-dom";
-import icons from "../public/images/icons.jpg";
+import icons from "./images/icons.jpg";
 export default function Footer() {
   return (
     <section className="footer">

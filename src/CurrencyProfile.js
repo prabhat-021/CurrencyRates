@@ -1,7 +1,7 @@
 import "./styles.css";
 import react from "react";
 import ReactDOM from "react-dom";
-import cont from "../public/images/country.jpg";
+import cont from "./images/country.jpg";
 export default function CurrencyProfile() {
   return (
     <section>

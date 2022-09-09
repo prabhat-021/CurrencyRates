@@ -1,6 +1,6 @@
 import react from "react";
 import ReactDOM from "react-dom";
-import gfgLogo from "../public/images/w3c_home.svg";
+import gfgLogo from "./images/w3c_home.svg";
 
 export default function Navbar() {
   return (
