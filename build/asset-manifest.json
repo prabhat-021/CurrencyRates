@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/CurrencyRates/static/css/main.303715ad.chunk.css",
+    "main.js": "/CurrencyRates/static/js/main.d05027a8.chunk.js",
+    "main.js.map": "/CurrencyRates/static/js/main.d05027a8.chunk.js.map",
+    "runtime-main.js": "/CurrencyRates/static/js/runtime-main.bc6cda41.js",
+    "runtime-main.js.map": "/CurrencyRates/static/js/runtime-main.bc6cda41.js.map",
+    "static/js/2.9668af83.chunk.js": "/CurrencyRates/static/js/2.9668af83.chunk.js",
+    "static/js/2.9668af83.chunk.js.map": "/CurrencyRates/static/js/2.9668af83.chunk.js.map",
+    "index.html": "/CurrencyRates/index.html",
+    "static/css/main.303715ad.chunk.css.map": "/CurrencyRates/static/css/main.303715ad.chunk.css.map",
+    "static/js/2.9668af83.chunk.js.LICENSE.txt": "/CurrencyRates/static/js/2.9668af83.chunk.js.LICENSE.txt",
+    "static/media/Qrcode.a1f11c16.jpg": "/CurrencyRates/static/media/Qrcode.a1f11c16.jpg",
+    "static/media/appledown.8c72854e.jpg": "/CurrencyRates/static/media/appledown.8c72854e.jpg",
+    "static/media/country.216da91d.jpg": "/CurrencyRates/static/media/country.216da91d.jpg",
+    "static/media/logocom.17d6ff24.jpg": "/CurrencyRates/static/media/logocom.17d6ff24.jpg",
+    "static/media/phone.7c350cfb.jpg": "/CurrencyRates/static/media/phone.7c350cfb.jpg",
+    "static/media/playstore.8ffe1ce1.jpg": "/CurrencyRates/static/media/playstore.8ffe1ce1.jpg",
+    "static/media/star.c24867c0.jpg": "/CurrencyRates/static/media/star.c24867c0.jpg",
+    "static/media/w3c_home.e16509a8.svg": "/CurrencyRates/static/media/w3c_home.e16509a8.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.bc6cda41.js",
+    "static/js/2.9668af83.chunk.js",
+    "static/css/main.303715ad.chunk.css",
+    "static/js/main.d05027a8.chunk.js"
+  ]
+}
