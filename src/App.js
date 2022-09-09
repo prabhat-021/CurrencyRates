@@ -7,10 +7,12 @@ import Appsection from "./Appsection.js";
 import star from "../public/images/star.jpg";
 import CurrencyProfile from "./CurrencyProfile";
 import Footer from "./Footer.js";
+import CurrencyConverter from "./CurrencyConverter.js";
 export default function App() {
   return (
     <div className="App">
       <Navbar />
+       <CurrencyConverter />
       <Popular />
       <Mid />
       <Mid2 />

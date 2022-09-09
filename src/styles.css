@@ -1,3 +1,6 @@
+body {
+  margin: 0;
+}
 .App {
   font-family: sans-serif;
   text-align: center;
@@ -40,6 +43,22 @@ li {
   padding-right: 12px;
 }
 /* Navbar css ends */
+
+
+/* Currency converter css start */
+.cardcurr {
+  width: 100%;
+  font-size: 2rem;
+  font-weight: 400;
+}
+.currh1 {
+  color: #000;
+  text-align: center;
+  margin: 20px 0 0 0;
+  font-size: 1rem;
+  font-weight: 200;
+}
+/* Currency converter css ends */
 
 /* currency tools section css start */
 .popular {
@@ -241,7 +260,6 @@ li {
   margin-bottom: 40px;
 }
 /* Currency profile section css ends  */
-
 
 /* Footer section css start  */
 .footer {
