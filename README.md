@@ -1,2 +1,0 @@
-# CurrencyRates
-Created with CodeSandbox
