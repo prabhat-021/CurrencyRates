@@ -21,12 +21,11 @@ export default function CurrencyConverter() {
     } else {
       const getCurrencyconvertTor = async () => {
         const response = await axios.get(
-          `https://api.exchangeratesapi.io/latest?base=${base}`
+          `https://openexchangerates.org/api/latest.json?app_id=f6192dbc30f04682b513bbb82c36aceb#`
         );
-        // return response;
         console.log("response==>", response);
         const date = response.data.date;
-        const result = response.data.rates[convertTo] * amount;
+        const result = (response.data.rates[convertTo] * amount).toFixed(3);
         setState({
           ...initialState,
           result,
