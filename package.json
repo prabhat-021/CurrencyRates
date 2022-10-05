@@ -13,6 +13,7 @@
     "antd": "^4.23.1",
     "axios": "^0.27.2",
     "bootstrap": "5.2.0",
+    "gh-pages": "^4.0.0",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-scripts": "^5.0.1"
@@ -25,8 +26,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "predeploy": "yarn run build",
-    "deploy": "gh-pages -b master -d build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -b main -d build",
     "eject": "react-scripts eject"
   },
   "browserslist": [
