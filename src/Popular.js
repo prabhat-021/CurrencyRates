@@ -12,7 +12,7 @@ export default function Popular() {
       </div>
       <div className="card">
         <div className="container">
-          <div>
+          <div className="container-1">
             <img src={pic1} />
             <h1 className="g1"> Xe International Money Transfer</h1>
             <div>
@@ -27,7 +27,7 @@ export default function Popular() {
           </div>
         </div>
         <div className="container">
-          <div>
+          <div className="container-1">
             <img src={pic2} />
             <h1 className="g1">Xe Currency Charts</h1>
             <div>
@@ -43,7 +43,7 @@ export default function Popular() {
           </div>
         </div>
         <div className="container">
-          <div>
+          <div className="container-1">
             <img src={pic3} />
             <h1 className="g1"> Xe Rate Alerts</h1>
             <div>

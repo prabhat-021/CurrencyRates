@@ -27,6 +27,7 @@ export default function Navbar() {
       <div className="login">
         <ul className="hw">
           <li>Login</li>
+          <li>|</li>
           <li>Register</li>
         </ul>
       </div>

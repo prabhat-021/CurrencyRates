@@ -1,6 +1,7 @@
 body {
   margin: 0;
 }
+
 .App {
   font-family: sans-serif;
   text-align: center;
@@ -17,31 +18,47 @@ body {
   font-size: 1.1rem;
   font-weight: 500;
 }
+
 .hw {
   display: flex;
   list-style: none;
   padding: 4px;
 }
-.logo {
-}
+
+/* .logo {
+} */
 .details {
   margin-right: auto;
   margin-left: 26px;
 }
+
 .component {
   display: flex;
   justify-content: center;
   margin-right: 40px;
 }
+
 .li1 {
   margin-right: 16px;
 }
+
 .login {
   margin-left: auto;
 }
+
 li {
   padding-right: 12px;
 }
+
+@media screen and (max-width:420px) {
+  .component {
+    display: none;
+  }
+  li {
+    margin-right: 2px;
+  }
+}
+
 /* Navbar css ends */
 
 
@@ -51,6 +68,7 @@ li {
   font-size: 2rem;
   font-weight: 400;
 }
+
 .currh1 {
   color: #000;
   text-align: center;
@@ -58,22 +76,26 @@ li {
   font-size: 1rem;
   font-weight: 200;
 }
+
 /* Currency converter css ends */
 
 /* currency tools section css start */
 .popular {
   margin-bottom: 70px;
 }
+
 .po1 {
   color: rgb(10, 20, 110);
   margin: 0px 0px 32px;
   font-weight: 600;
   line-height: 1.3;
 }
+
 .card {
   display: flex;
   justify-content: center;
 }
+
 .container {
   /* margin-left: auto;
   margin-right: auto; */
@@ -83,14 +105,28 @@ li {
   justify-content: center;
   text-align: center;
 }
+
 .g1 {
   color: rgb(10, 20, 110);
   margin: 0px 0px 32px;
 }
+
 .p1 {
   color: rgb(20, 30, 55);
   margin: 0px 0px 32px;
 }
+
+@media screen and (max-width:420px) {
+  .card {
+    display: block;
+  }
+
+  .container-1 {
+    border: 2px solid black;
+    margin-top: 2%;
+  }
+}
+
 /* currency tools section css ends */
 
 /* button css */
@@ -118,6 +154,7 @@ li {
   background-image: linear-gradient(to bottom, #ade0ff, #b2e0ff);
   text-decoration: none;
 }
+
 /* button css ends */
 
 /* mid section css start */
@@ -130,18 +167,22 @@ li {
   font: inherit;
   vertical-align: baseline;
 }
+
 .midp1 {
   color: blanchedalmond;
   padding-top: 20px;
   padding-bottom: 10px;
 }
+
 .midp2 {
   padding-bottom: 20px;
 }
+
 .img1 {
   width: 50%;
   padding-bottom: 25px;
 }
+
 .btn1 {
   -webkit-border-radius: 10;
   -moz-border-radius: 10;
@@ -161,6 +202,7 @@ li {
   background: #3cb0fd;
   text-decoration: none;
 }
+
 /* mid section css ends  */
 
 /* mid2 section css start  */
@@ -168,12 +210,15 @@ li {
   color: rgb(10, 20, 110);
   margin: 55px 0px 55px;
 }
+
 .midh2 {
   color: rgb(10, 20, 110);
 }
+
 .midimg {
   margin-bottom: 20px;
 }
+
 .tool {
   display: flex;
   flex-wrap: wrap;
@@ -184,11 +229,23 @@ li {
   font: inherit;
   vertical-align: baseline;
 }
+
 .btn2 {
   margin-top: 55px;
   margin-left: 10px;
   padding-left: 50px;
   padding-right: 50px;
+}
+
+@media screen and (max-width:420px) {
+  .tool {
+    display: block;
+  }
+
+  .midh2 {
+    /* border: 2px solid black; */
+    margin-top: 4%;
+  }
 }
 
 /* mid2 section css ends  */
@@ -197,18 +254,20 @@ li {
 #appsection {
   text-align: left;
 }
+
 .appsection {
-  display: flex;
   display: flex;
   /* flex-wrap: wrap; */
   justify-content: space-around;
   background-color: rgb(10, 20, 110);
 }
+
 .appdet {
   align-items: left;
   margin: 60px;
   /* flex-wrap: wrap; */
 }
+
 .apph1 {
   color: rgb(255, 255, 255);
   margin: 0px 0px 32px;
@@ -216,12 +275,14 @@ li {
   line-height: 1.3;
   font-size: 2.4rem;
 }
+
 .app1 {
   color: rgb(255, 255, 255);
   margin: 0px 0px 32px;
   font-weight: 300;
   line-height: 1.3;
 }
+
 .appimg {
   width: 58%;
   margin-top: 60px;
@@ -229,29 +290,45 @@ li {
   height: 75%;
   /* height: 50%; */
 }
+
 .qr {
   width: 120px;
   justify-content: flex-start;
   margin-bottom: 30px;
 }
+
 .appstore {
   display: flex;
   margin-bottom: 30px;
 }
+
 .store {
   width: 160px;
   margin-right: 20px;
 }
+
+@media screen and (max-width:420px) {
+  .appsection {
+    display: block;
+  }
+
+  .appdet {
+    margin: 50px 20px 0 60px;
+  }
+}
+
 /* app section css ends  */
 
 /* Currency profile section css start  */
 .star {
   width: 100%;
 }
+
 .currency {
   background-color: rgb(250, 250, 251);
   padding-top: 40px;
 }
+
 .crr1 {
   color: rgb(10, 20, 110);
   font-weight: 600;
@@ -259,6 +336,7 @@ li {
   font-size: 1.5rem;
   margin-bottom: 40px;
 }
+
 /* Currency profile section css ends  */
 
 /* Footer section css start  */
@@ -266,6 +344,7 @@ li {
   background-color: rgb(10, 20, 110);
   padding-bottom: 100px;
 }
+
 .foot1 {
   color: rgb(255, 255, 255);
   margin: 0px 0px 32px;
@@ -274,6 +353,7 @@ li {
   font-size: 1.3rem;
   padding-top: 110px;
 }
+
 /* .box{
   justify-content: flex-start;
 } */
@@ -282,10 +362,12 @@ li {
   padding-top: 40px;
   padding-bottom: 150px;
 }
+
 .icons {
   display: flex;
   margin-left: 14px;
 }
+
 .icont1 {
   margin-left: 50px;
   margin-right: 190px;
@@ -294,21 +376,26 @@ li {
   line-height: 1.3;
   font-size: 1rem;
 }
+
 .icon2 {
   font-weight: 300;
 }
+
 .img3 {
   width: 90%;
   height: 75%;
 }
+
 .bottom {
   display: flex;
   margin-top: 60px;
   justify-content: space-around;
 }
+
 .ul1 {
   padding-left: 0;
 }
+
 .li2 {
   font-size: 0.79rem;
   list-style: none;
@@ -316,10 +403,12 @@ li {
   text-align: left;
   padding-top: 10px;
 }
+
 .btmh1 {
   color: rgb(255, 255, 255);
   text-align: left;
 }
+
 h5 {
   text-align: left;
   color: rgb(255, 255, 255);
@@ -327,14 +416,58 @@ h5 {
   margin-left: 56px;
   margin-top: 80px;
 }
+
 .companyinfo {
   display: flex;
   margin-left: 18px;
 }
+
 .contact {
   margin-left: 57px;
 }
+
 .bot1 {
   margin-top: 50px;
 }
+
+@media screen and (max-width:420px) {
+  .footp1 {
+    margin: 1%;
+    padding: 1%;
+  }
+
+  .icons {
+    display: none;
+  }
+
+  .bottom {
+    display: block;
+    /* text-align: center; */
+  }
+
+  .btmh1,
+  .li2 {
+    text-align: center;
+  }
+
+  .contact {
+    margin: 0;
+  }
+
+  .companyinfo {
+    display: block;
+    padding: 0;
+    margin: 0;
+  }
+
+  li {
+    padding-right: 0;
+  }
+
+  h5 {
+    text-align: center;
+    margin-left: 0;
+  }
+}
+
 /* Footer section css ends  */
