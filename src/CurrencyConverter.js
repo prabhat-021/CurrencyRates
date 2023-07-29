@@ -16,16 +16,21 @@ export default function CurrencyConverter() {
   const { currencies, base, amount, convertTo, result, date } = initialState;
 
   useEffect(() => {
-    if (amount === isNaN) {
+    if (amount === "") {
       return;
     } else {
       const getCurrencyconvertTor = async () => {
         const response = await axios.get(
-          `https://openexchangerates.org/api/latest.json?app_id=f6192dbc30f04682b513bbb82c36aceb#`
+          `https://api.currencyapi.com/v3/latest?apikey=cur_live_3yYquVUi5VJIPmHqys94VrTjD29Mvjoi6tDcVw7b`
         );
         console.log("response==>", response);
-        const date = response.data.date;
-        const result = (response.data.rates[convertTo] * amount).toFixed(3);
+        // const date = response.data.date;
+        // console.log(convertTo);
+        // console.log(response.data.data.INR);
+        const data1=response.data.data;
+        // console.log(data1.value());
+        const result = (data1[convertTo].value * amount);
+        console.log(result);
         setState({
           ...initialState,
           result,
